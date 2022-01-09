@@ -43,7 +43,6 @@ const FilmInfo = () => {
 
     if (currentIndex === filmsList.results.length - 1) {
       nextPage += 1;
-      dispatch({type: SET_CURRENT_PAGE, payload: nextPage});
       filmsList = await getFilmList(nextPage, apiKey);
     }
 
