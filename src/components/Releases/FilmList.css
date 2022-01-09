@@ -1,0 +1,22 @@
+.releases {
+    max-width: 1582px;
+    width: 100%;
+    margin: 60px auto;
+}
+
+.releases-films {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.releases__item {
+    height: 324px;
+    width: 216px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}

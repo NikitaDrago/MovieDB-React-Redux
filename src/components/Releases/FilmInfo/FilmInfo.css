@@ -1,0 +1,79 @@
+.filmInfo_blur {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    height: 100vh;
+}
+
+.filmInfo-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.filmInfo__title {
+    color: #fff;
+    margin: 0;
+}
+
+.movieDB__button {
+    padding: 10px;
+    background: none;
+    color: #889eb6;
+    font-size: 20px;
+    border: 2px solid #889eb6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.movieDB__button:hover {
+    background-color: #889eb6;
+    color: #fff;
+}
+
+.movieDB__button:active {
+    transform: scale(.9);
+}
+
+.filmInfo-buttonWrapper {
+    display: flex;
+    justify-content: right;
+}
+
+
+.filmInfo-header {
+    color: #fff;
+    margin-left: 50px;
+    width: 500px;
+}
+
+.filmInfo-info {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+.filmInfo__overview {
+    padding: 15px 0;
+    border-top: 2px solid #889eb6;
+    border-bottom: 2px solid #889eb6;
+}
+
+.cell {
+    margin-right: 8px;
+    padding-right: 8px;
+    border-right: 2px solid #889eb6;
+}
+
+.cell:last-child {
+    border: none;
+}
+
+.button-wrapper {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
