@@ -1,10 +1,10 @@
 import { useDispatch, useSelector } from "react-redux";
-import { apiKeySelector } from "../../store/selectors";
+import { apiKeySelector } from "../../../store/selectors";
 import { useCallback, useEffect, useState } from "react";
-import { getFilmData, getFilmList } from "../../utils";
+import { getFilmData, getFilmList } from "../../../utils";
 import './FilmInfo.css';
 import { useHistory, useParams } from "react-router-dom";
-import { SET_FILM } from "../../constants/actions";
+import { SET_FILM } from "../../../constants/actions";
 
 const FilmInfo = () => {
   const {page, id} = useParams();

@@ -1,0 +1,36 @@
+
+.FavoriteItem-wrapper {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.FavoriteItem__title {
+    font-size: 25px;
+    color: #889eb6;
+}
+
+.FavoriteItem-container {
+    display: flex;
+}
+.FavoriteItem-container:empty:after {
+    content: 'the list of favorite movies is empty';
+}
+
+.FavoriteItem__title {
+    margin: 0;
+    font-size: 30px;
+    color: #37404a;
+}
+
+.FavoriteItem-dsc {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.FavoriteItem-buttonWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

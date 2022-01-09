@@ -2,7 +2,7 @@ import "./FilmList.css";
 import { useCallback, useEffect } from "react";
 import { useDispatch, useSelector } from 'react-redux';
 import { apiKeySelector, filmSelector, pagesCountSelector } from "../../store/selectors";
-import Film from "./Film";
+import Film from "./Film/Film";
 import ReactPaginate from "react-paginate";
 import './Pagination.css';
 import { SET_FILM } from "../../constants/actions";

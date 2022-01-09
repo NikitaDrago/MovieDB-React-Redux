@@ -1,0 +1,27 @@
+.header {
+    background-color: #37404a;
+    color: #fff;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title {
+    font-size: 22px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header__dropmenu {
+    outline: none;
+    font-size: 22px;
+    background: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropmenu__item {
+    color: #000;
+}

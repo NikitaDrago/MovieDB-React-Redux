@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Header from "./Header";
+import Cabinet from "./Сabinet/Cabinet";
 
-function App() {
-  return (
-    <div>123</div>
-  );
-}
+const App = () => <>
+  <Header/>
+  <Cabinet/>
+</>;
 
 export default App;

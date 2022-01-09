@@ -2,17 +2,14 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .pagination > li {
-    border: 2px solid #37404a;
     list-style-type: none;
-    padding: 15px;
-    border-radius: 15px;
-    margin: 10px 5px;
 }
 
-.pagination > li:hover {
+.pagination > li > a:hover {
     color: #fff;
     background-color: #37404a;
     cursor: pointer;
@@ -22,10 +19,13 @@
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    border: 2px solid #37404a;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px 5px;
 }
 
-.selected {
-    border: 2px solid cadetblue;
+.selected > a {
     background-color: #37404a;
     color: #fff;
 }
